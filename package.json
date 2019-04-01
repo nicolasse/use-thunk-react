@@ -1,0 +1,28 @@
+{
+  "name": "use-thunk-react",
+  "version": "0.1.0",
+  "description": "\"You can keep your actions like before and use useReducer hook\"",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasse/use-thunk-react.git"
+  },
+  "keywords": [
+    "thunk",
+    "hook",
+    "react",
+    "usethunk",
+    "usethunkreact",
+    "usereducer",
+    "reducer"
+  ],
+  "author": "Nicolas Sanchez Ernst <sanchez.ernst@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicolasse/use-thunk-react/issues"
+  },
+  "homepage": "https://github.com/nicolasse/use-thunk-react#readme"
+}
