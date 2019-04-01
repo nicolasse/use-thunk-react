@@ -65,8 +65,8 @@ export const fetchInfo = () => {
 }
 
 const fetchInfoStarted = () => ({type: 'FETCH_INFO_STARTED'})
-const fetchInfoStarted = (info) => ({type: 'FETCH_INFO_SUCCESS', payload: info})
-const fetchInfoStarted = (error) => ({type: 'FETCH_INFO_FAILURE', payload: error})
+const fetchInfoSuccess = (info) => ({type: 'FETCH_INFO_SUCCESS', payload: info})
+const fetchInfoFailure = (error) => ({type: 'FETCH_INFO_FAILURE', payload: error})
 
 
 ```
