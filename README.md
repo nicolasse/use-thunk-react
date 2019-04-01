@@ -5,7 +5,7 @@ You can keep your actions and reducers like before with redux, but use hooks ins
 $npm install --save use-thunk-react
 ```
 
-##Example
+#Example
 
 ```js
 -------------------------  app.js  -------------------------
