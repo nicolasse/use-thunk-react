@@ -6,7 +6,7 @@ const applyThunk = dispatch => action => {
   return dispatch(action)
 }
 
-const useThunkReact ( reducer, initialState ) => {
+const useThunkReact = ( reducer, initialState ) => {
   const [state, dispatch] = useReducer(reducer, initialState)
   return [state, applyThunk(dispatch)]
 }
