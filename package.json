@@ -1,7 +1,7 @@
 {
   "name": "use-thunk-react",
   "version": "0.1.2",
-  "description": "\"You can keep your actions like before and use useReducer hook\"",
+  "description": "You can keep your actions like before and use useReducer hook",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/nicolasse/use-thunk-react/issues"
   },
-  "homepage": "https://github.com/nicolasse/use-thunk-react#readme"
+  "homepage": "https://github.com/nicolasse/use-thunk-react#readme",
+  "dependencies": {
+    "react": "^16.8.6"
+  }
 }

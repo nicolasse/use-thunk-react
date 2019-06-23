@@ -8,7 +8,8 @@ $npm install --save use-thunk-react
 #Example
 
 ```js
--------------------------  app.js  -------------------------
+
+//app.js
 
 import React from 'react'
 import useThunkReact from 'use-thunk-react'
@@ -31,8 +32,11 @@ function App(){
   export App 
 }
 
+```
 
--------------------------  reducer.js  -------------------------
+```js
+
+//reducer.js
 
 export const initialState = {
   info: {},
@@ -53,13 +57,17 @@ export const reducer = (state, action) => {
   }
 }
 
--------------------------  actions.js  -------------------------
+```
+
+```js
+
+//actions.js
 
 export const fetchInfo = () => {
   return dispatch => {
     dispatch(fetchInfoStarted())
     fetch('http://myApi.com/info')
-      .then( res => dispatch(fetchInfoSuccess(res.data)))
+      .then( res => dispatch(fetchInfoSuccess(res)))
       .catch(e => dispatch(fetchInfoFailure(e)))
   }
 }
