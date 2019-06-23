@@ -1,4 +1,4 @@
-import { useReducer } from 'react'
+var useReducer = require('react').useReducer
 
 const applyThunk = dispatch => action => {
   if(typeof action === 'function')
@@ -11,4 +11,4 @@ const useThunkReact = ( reducer, initialState ) => {
   return [state, applyThunk(dispatch)]
 }
 
-export default useThunkReact
+module.exports = useThunkReact
